@@ -1,8 +1,8 @@
-@import url("http://fonts.googleapis.com/css?family=Roboto&weight=100");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400");
 
 body {
     font-family: "Roboto";
-    font-weight: 100;
+    font-weight: 400;
     color: wheat;
     background-color: #112;
     font-size: 22px;
