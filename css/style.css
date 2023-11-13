@@ -4,6 +4,39 @@ body {
     font-family: "Roboto";
     font-weight: 400;
     color: wheat;
-    background-color: #112;
+    background-color: #223;
     font-size: 22px;
+    overflow: hidden;
+}
+
+#mainContent {
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    box-shadow: inset -160px 0px 160px -160px rgb(0, 0, 0), inset 160px 0px 160px -160px rgb(0, 0, 0);
+}
+
+#mainContent::before {
+    display: block;
+    position: absolute;
+    content: ' ';
+    width: 90vw;
+    left: 5vw;
+    height: 1px;
+    top: -30px;
+    box-shadow: 0px 0px 160px 50px rgba(200, 200, 255, .4);
+}
+
+#mainContent::after {
+    display: block;
+    position: absolute;
+    content: ' ';
+    width: 90vw;
+    left: 5vw;
+    height: 1px;
+    bottom: -30px;
+    box-shadow: 0px 0px 160px 50px rgba(200, 200, 255, .4);
 }
